@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "DSEG14Modern-Bold";
+    src: url("./DSEG14Modern-Bold.ttf");
+}
+
+h1 {
+    font-family: 'DSEG14Modern-Bold';
+    margin: auto;
+    font-size: 64px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-self: center;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #121212;
+}
