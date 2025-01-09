@@ -4,9 +4,17 @@
 }
 
 h1 {
+    font-size: 64px;
+}
+p {
+    font-size: 32px;
+    text-align: center;
+}
+
+html, body {
     font-family: 'DSEG14Modern-Bold';
     margin: auto;
-    font-size: 64px;
+    height: 100%;
     color: #FFFFFF;
     display: inline-flex;
     align-self: center;
@@ -14,10 +22,6 @@ h1 {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-}
-
-html, body {
-    height: 100%;
 }
 
 html {
